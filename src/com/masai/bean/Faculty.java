@@ -12,6 +12,21 @@ public class Faculty {
 	public Faculty() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	public Faculty(String facultyName, String facultryAddress, String mobile, String email, String username,
+			String password) {
+		super();
+		this.facultyName = facultyName;
+		this.facultryAddress = facultryAddress;
+		this.mobile = mobile;
+		this.email = email;
+		this.username = username;
+		this.password = password;
+	}
+
+
 
 	public String getFacultyName() {
 		return facultyName;
