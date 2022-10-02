@@ -4,14 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Dbutil {
-
-
+public class DButil {
 	
 	public static Connection provideConnection() {
 		
-		Connection conn=null;
-		
+		Connection conn = null;
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -20,19 +17,18 @@ public class Dbutil {
 			e.printStackTrace();
 		}
 		
-		String url="jdbc:mysql://localhost:3306/coursemanagementsystem";
+		String url = "jdbc:mysql://localhost:3306/coursemanagementsystem";
 		
 		try {
-			conn= DriverManager.getConnection(url,"root","root");
+			conn = DriverManager.getConnection(url, "root", "root");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
-		return conn;
-		
+		return conn ;
 	}
 	
 	
-
+	
 }

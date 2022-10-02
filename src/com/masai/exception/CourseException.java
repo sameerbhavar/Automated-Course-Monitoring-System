@@ -1,15 +1,14 @@
 package com.masai.exception;
 
-public class AdminException extends Exception{
+public class CourseException extends Exception{
 	
-	public AdminException() {
+	public CourseException() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public AdminException(String msg) {
+	public CourseException(String msg) {
 		// TODO Auto-generated constructor stub
 		super(msg);
 	}
-
 
 }

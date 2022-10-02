@@ -1,15 +1,14 @@
 package com.masai.exception;
 
-public class AdminException extends Exception{
+public class BatchCException extends Exception {
 	
-	public AdminException() {
+	
+	public BatchCException() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public AdminException(String msg) {
+	public BatchCException(String msg) {
 		// TODO Auto-generated constructor stub
 		super(msg);
 	}
-
-
 }
