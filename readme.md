@@ -1,18 +1,18 @@
 
-# PHP CRUD
+# Automated Course Monitoring System
 
-Simple php Crud Operation done using html ,css ,JavaScript, bootstrap ,php ,Mysql This project i create for learning purpose how php work with frontend and Backend .
-  
+Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course plan
+
   ## Tech Stacks 🛠
     
-    HTML 5, CSS, JavaScript and Bootstrap , PHP , MySql
+   Java , MySql
     
   
   ## Clone Snaps :-
-![phpcrud](https://user-images.githubusercontent.com/50591381/200113762-d62e8e12-b5b1-4e81-9a46-97e4fafad0dc.PNG)
+![courseimg](https://user-images.githubusercontent.com/50591381/200113900-9478a9e9-b8e1-4d2a-ba91-124a108b09a0.PNG)
 
   # Deployed Link :-
-  https://phpcrud.codereach.in/index.php
+  [https://phpcrud.codereach.in/index.php](https://drive.google.com/file/d/17KFZgnrLqqV41_TeJVevhHon6H_QAtvW/view)
     
   
 
